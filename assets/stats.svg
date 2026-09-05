@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 210" width="420" height="210" role="img" aria-label="GitHub statistics">
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.75"/>
+    <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.75"/>
+  </linearGradient>
+  <style>
+    .t { font-family: ui-monospace,SFMono-Regular,'DejaVu Sans Mono',Menlo,monospace; }
+    .lbl { fill:#8b949e; font-size:13px; }
+    .val { fill:#e6edf3; font-size:19px; font-weight:700; }
+    .ttl { fill:#e6edf3; font-size:15px; font-weight:700; letter-spacing:2px; }
+  </style>
+</defs>
+<rect x="1" y="1" width="418" height="208" rx="12" fill="#0d1117" stroke="url(#edge)" stroke-width="1.5"/>
+<text class="t ttl" x="24" y="36">STATISTICS</text><rect x="24" y="48" width="60" height="2" fill="url(#edge)"><animate attributeName="width" values="0;60" dur="0.9s" fill="freeze"/></rect><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.0s" fill="freeze"/><text class="t lbl" x="24" y="80">Public repositories</text><text class="t val" x="396" y="81" text-anchor="end">15</text><rect x="24" y="89" width="0" height="1" fill="#30363d"><animate attributeName="width" values="0;372" dur="0.7s" begin="0.0s" fill="freeze"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.15s" fill="freeze"/><text class="t lbl" x="24" y="112">Stars earned</text><text class="t val" x="396" y="113" text-anchor="end">4</text><rect x="24" y="121" width="0" height="1" fill="#30363d"><animate attributeName="width" values="0;372" dur="0.7s" begin="0.15s" fill="freeze"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/><text class="t lbl" x="24" y="144">Pull requests</text><text class="t val" x="396" y="145" text-anchor="end">2</text><rect x="24" y="153" width="0" height="1" fill="#30363d"><animate attributeName="width" values="0;372" dur="0.7s" begin="0.3s" fill="freeze"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.44999999999999996s" fill="freeze"/><text class="t lbl" x="24" y="176">Contributions (past year)</text><text class="t val" x="396" y="177" text-anchor="end">3,851</text><rect x="24" y="185" width="0" height="1" fill="#30363d"><animate attributeName="width" values="0;372" dur="0.7s" begin="0.44999999999999996s" fill="freeze"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/><text class="t lbl" x="24" y="208">Followers</text><text class="t val" x="396" y="209" text-anchor="end">4</text><rect x="24" y="217" width="0" height="1" fill="#30363d"><animate attributeName="width" values="0;372" dur="0.7s" begin="0.6s" fill="freeze"/></rect></g></svg>
