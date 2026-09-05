@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/header.svg?v=b67c9da0" alt="Aaron Kakembo, software engineer" width="100%">
+  <img src="./assets/header.svg?v=97ff2b96" alt="Aaron Kakembo, software engineer" width="100%">
 </p>
 
 <p align="center">
   <a href="https://aaron-official.fly.dev"><img src="https://img.shields.io/badge/Portfolio-aaron--official.fly.dev-0B7285?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Portfolio"></a>
-  <a href="https://huggingface.co/aaron-official"><img src="https://img.shields.io/badge/Hugging%20Face-Live%20Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
+  <a href="https://huggingface.co/aaron-official"><img src="https://img.shields.io/badge/Hugging%20Face-Live%20Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000000&labelColor=FFD21E" alt="Hugging Face"></a>
   <a href="https://www.linkedin.com/in/aaron-kakembo-468042321/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
