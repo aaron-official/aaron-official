@@ -25,10 +25,26 @@ jobs:
           GH_USER: ${{ github.repository_owner }}
         run: python3 scripts/gen_stats.py
 
+      - name: Bust the image proxy cache
+        # GitHub's camo proxy caches by URL, so a regenerated card keeps
+        # serving the old render until the query string changes.
+        run: |
+          python3 - <<'EOF'
+          import hashlib, re, time
+          d = time.strftime("%Y%m%d%H%M", time.gmtime())
+          h = hashlib.md5(open("assets/header.svg","rb").read()).hexdigest()[:8]
+          s = open("README.md").read()
+          s = re.sub(r'\./assets/header\.svg(\?v=[^"]*)?', f'./assets/header.svg?v={h}', s)
+          s = re.sub(r'\./assets/stats\.svg(\?v=[^"]*)?',  f'./assets/stats.svg?v={d}',  s)
+          s = re.sub(r'\./assets/langs\.svg(\?v=[^"]*)?',  f'./assets/langs.svg?v={d}',  s)
+          s = re.sub(r'(output/snake-(?:dark|light)\.svg)(\?v=[^"]*)?', rf'\1?v={d}', s)
+          open("README.md","w").write(s)
+          EOF
+
       - name: Commit if changed
         run: |
           git config user.name  "Aaron Kakembo"
           git config user.email "kaaronaire@gmail.com"
-          git add assets/stats.svg assets/langs.svg
+          git add assets/stats.svg assets/langs.svg README.md
           git diff --staged --quiet || git commit -m "chore: refresh stat cards"
           git push

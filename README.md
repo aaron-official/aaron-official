@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Aaron Kakembo, software engineer" width="100%">
+  <img src="./assets/header.svg?v=b67c9da0" alt="Aaron Kakembo, software engineer" width="100%">
 </p>
 
 <p align="center">
@@ -131,15 +131,15 @@ Also public:
 ### Stats
 
 <p align="center">
-  <img src="./assets/stats.svg" alt="GitHub statistics" width="49%">
-  <img src="./assets/langs.svg" alt="Most used languages" width="49%">
+  <img src="./assets/stats.svg?v=202609051236" alt="GitHub statistics" width="49%">
+  <img src="./assets/langs.svg?v=202609051236" alt="Most used languages" width="49%">
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-light.svg">
-    <img src="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg" alt="Contribution graph animation" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202609051236">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-light.svg?v=202609051236">
+    <img src="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202609051236" alt="Contribution graph animation" width="100%">
   </picture>
 </p>
 
