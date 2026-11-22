@@ -131,15 +131,15 @@ Also public:
 ### Stats
 
 <p align="center">
-  <img src="./assets/stats.svg?v=202611211100" alt="GitHub statistics" width="49%">
-  <img src="./assets/langs.svg?v=202611211100" alt="Most used languages" width="49%">
+  <img src="./assets/stats.svg?v=202611221124" alt="GitHub statistics" width="49%">
+  <img src="./assets/langs.svg?v=202611221124" alt="Most used languages" width="49%">
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202611211100">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-light.svg?v=202611211100">
-    <img src="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202611211100" alt="Contribution graph animation" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202611221124">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-light.svg?v=202611221124">
+    <img src="https://raw.githubusercontent.com/aaron-official/aaron-official/output/snake-dark.svg?v=202611221124" alt="Contribution graph animation" width="100%">
   </picture>
 </p>
 
